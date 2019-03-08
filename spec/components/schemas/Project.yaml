@@ -7,14 +7,10 @@ properties:
       - 1
   name:
     type: string
-    enum:
-      - koderover
-      - ldap
+    example: koderover
   description:
     type: string
-    enum:
-      - 发布系统
+    example: 发布系统
   default_branch:
     type: string
-    enum:
-      - master
+    example: master

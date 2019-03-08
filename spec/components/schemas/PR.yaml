@@ -1,0 +1,17 @@
+type: object
+properties:
+  mr_id:
+    type: integer
+    example: 2
+  target_branch:
+    type: string
+    example: master
+  source_branch:
+    type: string
+    example: dev
+  project_id:
+    type: string
+    example: 1
+  title:
+    type: string
+    example: new-feature
