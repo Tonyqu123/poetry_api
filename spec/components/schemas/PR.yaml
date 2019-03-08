@@ -15,3 +15,6 @@ properties:
   title:
     type: string
     example: new-feature
+  authorName:
+    type: string
+    example: qu
