@@ -1,15 +1,15 @@
 type: object
 properties:
-  mr_id:
+  id:
     type: integer
     example: 2
-  target_branch:
+  targetBranch:
     type: string
     example: master
-  source_branch:
+  sourceBranch:
     type: string
     example: dev
-  project_id:
+  projectId:
     type: string
     example: 1
   title:
