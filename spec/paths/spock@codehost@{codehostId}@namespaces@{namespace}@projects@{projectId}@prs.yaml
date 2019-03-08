@@ -17,6 +17,12 @@ parameters:
       type: string
     required: true
     description: 需要查询的namespace Path
+  - name: targetBranch
+    in: query
+    schema:
+      type: string
+    required: false
+    description: 查找的目标分支
 get:
   tags:
     - spock
