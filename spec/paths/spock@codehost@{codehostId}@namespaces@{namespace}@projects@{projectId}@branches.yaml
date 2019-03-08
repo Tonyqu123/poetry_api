@@ -8,15 +8,15 @@ parameters:
   - name: projectId
     in: path
     schema:
-      type: integer
+      type: string
     required: true
-    description: 需要查询的project ID
+    description: 需要查询的project Name
   - name: namespace
     in: path
     schema:
       type: string
     required: true
-    description: 需要查询的namespace
+    description: 需要查询的namespace Path
 get:
   tags:
     - spock
@@ -27,4 +27,6 @@ get:
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/Branch'
+            type: array
+            items:
+              $ref: '#/components/schemas/Branch'

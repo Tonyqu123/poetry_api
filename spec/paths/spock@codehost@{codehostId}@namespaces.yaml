@@ -17,4 +17,4 @@ get:
           schema:
             type: array
             items:
-              type: string
+              $ref: '#/components/schemas/Namespace'
