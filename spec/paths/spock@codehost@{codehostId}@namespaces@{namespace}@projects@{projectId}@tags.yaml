@@ -20,7 +20,7 @@ parameters:
 get:
   tags:
     - spock
-  summary: 查询仓库下所有分支
+  summary: 查询仓库下所有标签
   responses:
     '200':
       description: 成功获取
