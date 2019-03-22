@@ -5,10 +5,16 @@ parameters:
       type: integer
     required: true
     description: 需要查询的codehost ID
+  - name: namespace
+    in: path
+    schema:
+      type: string
+    required: true
+    description: 需要查询的namespace
 get:
   tags:
     - spock
-  summary: 查询代码源下所有namespace
+  summary: 查询代码源namespace下所有仓库
   responses:
     '200':
       description: 成功获取
@@ -17,4 +23,4 @@ get:
           schema:
             type: array
             items:
-              $ref: '#/components/schemas/Namespace'
+              $ref: '#/components/schemas/Project'
