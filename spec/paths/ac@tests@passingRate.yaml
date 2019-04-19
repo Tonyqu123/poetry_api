@@ -5,6 +5,11 @@ parameters:
     required: true
     schema:
       type: string
+  - name: onlyDelivery
+    in: query
+    description: CD通过率
+    schema:
+      type: boolean
 get:
   security:
     - ApiKeyAuth: []

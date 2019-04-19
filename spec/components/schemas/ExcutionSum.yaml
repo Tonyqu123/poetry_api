@@ -4,3 +4,5 @@ properties:
     type: string
   num:
     type: integer
+  onlyDelivery:
+    type: boolean
