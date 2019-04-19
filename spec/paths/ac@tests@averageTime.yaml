@@ -11,11 +11,11 @@ get:
     - ApiRootKeyAuth: []
   tags:
     - AnalysisCenter
-  summary: 获取产品的测试任务执行频度（总数）
+  summary: 获取产品的测试任务平均耗时
   responses:
     '200':
-      description: 产品的测试任务执行频度
+      description: 测试任务平均耗时
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/ExcutionSum'
+            $ref: '#/components/schemas/TestAverageTime'
