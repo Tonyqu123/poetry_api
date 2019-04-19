@@ -1,0 +1,21 @@
+parameters:
+  - name: productTemplate
+    in: query
+    description: productTemplate name
+    required: true
+    schema:
+      type: string
+get:
+  security:
+    - ApiKeyAuth: []
+    - ApiRootKeyAuth: []
+  tags:
+    - AnalysisCenter
+  summary: 获取产品的工作流交付总数
+  responses:
+    '200':
+      description: 工作流交付总数
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TestdeliverySum'
