@@ -5,6 +5,11 @@ parameters:
     required: true
     schema:
       type: string
+  - name: onlyDelivery
+    in: query
+    required: false
+    schema:
+      type: string
 get:
   security:
     - ApiKeyAuth: []
