@@ -1,8 +1,0 @@
-type: object
-properties:
-  productTemplateName:
-    type: string
-  num:
-    type: integer
-  onlyDelivery:
-    type: boolean
