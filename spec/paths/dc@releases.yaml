@@ -17,12 +17,12 @@ parameters:
     required: true
     schema:
       type: integer
-  - name: productName
+  - name: teamName
     in: query
-    description: 产品名称
+    description: 团队名称
     required: false
     schema:
-      type: string
+      type: integer
   - name: per_page
     in: query
     description: 分页大小
