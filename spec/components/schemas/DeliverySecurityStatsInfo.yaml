@@ -1,0 +1,16 @@
+type: object
+properties:
+  total:
+    type: integer
+  unkown:
+    type: integer
+  negligible:
+    type: integer
+  medium:
+    type: integer
+  low:
+    type: integer
+  high:
+    type: integer
+  critical:
+    type: integer
