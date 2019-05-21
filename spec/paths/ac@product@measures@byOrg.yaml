@@ -11,7 +11,7 @@ get:
     - ApiRootKeyAuth: []
   tags:
     - AnalysisCenter
-  summary: 列出组织所有团队的产品纬度的代码质效列表
+  summary: 列出组织产品纬度的代码质效列表
   responses:
     '200':
       description: 团队质效列表
