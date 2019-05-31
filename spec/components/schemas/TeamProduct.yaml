@@ -4,7 +4,9 @@ properties:
     type: integer
     readOnly: true
     description: 在请求体中无效
-  roleId:
-    type: integer
   productId:
     type: string
+  teamId:
+    type: integer
+  userId:
+    type: integer
